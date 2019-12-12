@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .main{
    margin-top: 150px;
    border-style: solid;
@@ -7,3 +10,13 @@
     background-image: url("images/background2.jpg");
 }
 
+#text{
+    height: 100px;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: lightslategray;
+
+}
