@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(49, 49, 46);
 }
 .main{
    margin-top: 150px;
@@ -15,8 +15,24 @@ body{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Permanent Marker', cursive;
     color: rgb(191, 197, 202);
 
+}
+
+#cleveland:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#miami:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#cavs:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#lakers:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
