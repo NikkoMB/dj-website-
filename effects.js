@@ -16,8 +16,17 @@ $("#miami").mouseenter(function() {
   console.log("miami working");
 })
 
+let akron = $("#akron")[0];
+$("#cleveland").mouseenter(function() {
+  akron.play();
+  console.log("cavs working");
+})
 
-
+let losAng = $("#laker")[0];
+$("#lakers").mouseenter(function() {
+  losAng.play();
+  console.log("lakers working");
+})
 
 
 
