@@ -14,9 +14,16 @@ body{
     height: 100px;
 }
 
-iframe{
-    position: relative;
+tr{
+    color: white;
 }
+
+iframe{
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(191, 197, 202);
+}
+
 
 h1{
     font-size: 70px;
