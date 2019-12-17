@@ -37,6 +37,10 @@ h1{
         
 }
 
+#first_lebron:hover {
+    transform: scale(1.1); 
+}
+
 #miami:hover {
     transform: scale(1.5); 
     
