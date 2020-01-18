@@ -26,10 +26,10 @@ app.get('/lakers.html', (req,res) =>{
     res.sendFile(path.join(__dirname, '/lakers.html'));
 });
 
-app.get('/first_cavs.html', (req,res) =>{
-    res.sendFile(path.join(__dirname, '/first_cavs.html'));
+app.get('/miami.html', (req,res) =>{
+    res.sendFile(path.join(__dirname, '/miami.html'));
 });
 
-app.get('/first_cavs.html', (req,res) =>{
-    res.sendFile(path.join(__dirname, '/first_cavs.html'));
+app.get('/second_cavs.html', (req,res) =>{
+    res.sendFile(path.join(__dirname, '/second_cavs.html'));
 });
