@@ -11,11 +11,12 @@ app.listen(process.env.PORT || 3000, () =>{
 
 app.use('/images', express.static(path.join(__dirname, '/images'))); 
 app.use('/main.css', express.static(path.join(__dirname, '/main.css'))); 
+app.use('/lebron_audio', express.static(path.join(__dirname, '/lebron_audio'))); 
 
 //////////////////
 
-app.get('/index.html', (req,res) =>{
-    res.sendFile(path.join(__dirname,'index.html'));
+app.get('/', (req,res) =>{
+    res.sendFile(path.join(__dirname,'/'));
 }); 
 
 app.get('/first_cavs.html', (req,res) =>{
